@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mtg_env"
+version = "0.1.0"
+description = "A Magic: The Gathering game environment with rules enforcement."
+authors = [{ name = "Jakob Moen Bekken", email = "post@jokko.no" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/jakobbekken/mtg_env"
+Documentation = "https://github.com/jakobbekken/mtg_env/wiki"
+Issues = "https://github.com/jakobbekken/mtg_env/issues"
