@@ -9,6 +9,9 @@ setup(
     url="https://github.com/jakobbekken/mtg_env",
     packages=find_packages(),
     install_requires=[],
+    extras_require={
+        "dev": ["pytest>=8.3.4"],
+    },
     classifiers=[
         "Private :: Do Not Upload",
         "Development Status :: 1 - Planning",
